@@ -1,0 +1,113 @@
+.menuWrapper{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 140px;
+}
+
+/* NAVIGATION */
+.menuWrapper nav{
+    width: 100%;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menuWrapper nav button{
+    padding: 6px 10px;
+    color: #e0e0e0;
+    float: right;
+    background-color: #2A2A2A;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+/* SEARCH BAR */
+.searchBar{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 60px;
+}
+.searchBar input{
+    width: 50%;
+    padding: 6px 10px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: 1px solid rgb(49, 49, 49);
+    background-color:#2A2A2A;
+    border-radius: 5px;
+}
+.searchBar input:hover{
+    border: 1px solid #808080;
+}
+/* CATEGORY */
+.menuCategory{
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+.menuCategory button{
+    width: 11%;
+    margin: 0px 10px;
+    background-color: #44444436;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+.menuCategory button:hover{
+    background-color: #FFA47B;
+}
+/* FOODS */
+.menuFoods{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.menuFoods > div{
+    width: 500px;
+    background-color: #444444;
+    margin: 15px;
+    border-radius: 10px;
+}
+.food{
+    display: flex;
+    padding: 0px 10px;
+}
+.food > div{
+    margin: auto;
+}
+.foodimg{
+    padding: 10px;
+}
+.foodimg img{
+    border-radius: 10px;
+}
+.foodDesc{
+    font-size: 13px;
+    margin: auto;
+    text-align: justifys;
+}
+.foodDesc p{
+    color: rgb(199, 199, 199);
+}
+.foodDesc button{
+    width: 30%;
+    padding: 5px 0px;
+    color: #2A2A2A;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(202, 202, 202);
+}
+.foodDesc button:hover{
+    background-color: #FFA47B;
+    color: white;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: #ffffff;
+}
+.checkoutPage{
+    width: 100%;
+}
+.checkoutPage form{
+    background-color: white;
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: auto;
+    padding: 25px 15px;
+    box-shadow: 0px 3px 5px grey;
+}
+.checkoutPage input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 0.5px solid #2a2a2a54;
+    font-size: 16px;
+}
+.checkoutPage input::placeholder{
+    color: #5e5e5e81;
+}
+.formDetails{
+    padding: 10px 0;
+}
+
+
+/* button */
+.formButton{
+    width: 100%;
+    display: flex;
+}
+.formButton button{
+    width: 50%;
+    padding: 8px 0px;
+    margin: 0px 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formButton button[type="submit"]{
+    background-color: #FFA47B;
+    color: white;
+}
+.formButton .exitCheckout{
+    background-color: #4b4b4b36;
+}
+.exitCheckout a{
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}

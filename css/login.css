@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.loginContainer{
+    background-color:#eeeeee;
+    width: 100%;
+    min-height: 100vh;
+}
+.formLog{
+    width: 400px;
+    min-height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 0.9s;
+    background-color: #ffffff;
+    padding: 35px 25px;
+    text-align: left;
+    border: 1px solid #00000017;
+    box-shadow: 0px 5px 10px #8080808c;
+}
+@keyframes animate{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 50%;
+    }
+}
+.formLog input{
+    width: 100%;
+    padding: 7px 0px;
+    font-size: 18px;
+    color:#313131;
+    border: none;
+    border-bottom: 1px solid #5c5c5c8f;
+    outline: none;
+    background-color: #ffffff;
+    margin: 12px 0;
+}
+.submitLog, .cancelLog{
+    padding: 7px 0px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+.submitLog{
+    background-color:#292929;
+    color: white;
+    width: 100%;
+}
+.cancelLog{
+    color: #292929;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 7px 145px;
+}
+.logoo{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+.logoo h1{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-transform: uppercase
+}
+.fpassword{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.fpassword a{
+    text-decoration: none;
+}

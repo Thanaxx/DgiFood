@@ -1,0 +1,47 @@
+.about{
+    min-height: 100vh;
+    padding: 100px 140px;
+}
+.aboutWrapper{
+    background-color: #EAEAEA;
+    display: flex;
+}
+.aboutWrapper > div{
+
+}
+.aboutImg{
+    flex: 1;
+}
+.aboutDescription{
+    flex: 2;
+    margin: auto;
+}
+.aboutDescription h1{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #FFA47B;
+    text-shadow: 0px 3px 3px #77777763;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.aboutDescription p{
+    font-size: 17px;
+    text-align: justify;
+    font-weight: bold;
+    padding: 20px;
+    color: #2a2a2abd;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutDescription button{
+    border: none;
+    outline: none;
+}
+.aboutDescription button a{
+    color: #444444;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: burlywood;
+}

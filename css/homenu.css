@@ -1,0 +1,56 @@
+.menu{
+    min-height: 100vh;
+}
+.menuWrapper{
+    margin: 0px 100px;
+}
+/* menu top */
+.menuCaption, .menuA, .menuB{
+    display: flex;
+    margin: 50px 0px;
+}
+.menuCaption > div{
+    flex: 1;
+    margin: auto;
+}
+.menuTitle h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #4b4b4b;
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 0px 5px 4px #C4C4C4;
+}
+.menuDesc p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #757575;
+    text-align: justify;
+}
+
+/* 1st menu */
+.menuA > div{
+    flex: 1;
+    margin: auto;
+}
+
+.imageA{
+    text-align: center;
+}
+.imageADesc{
+    text-align: justify;
+    margin: auto;
+}
+.imageADesc p{
+    font-size: 18px;
+    color: #757575;
+}
+.menuA h2{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Rock Salt', cursive;
+    color: #FFA47B;
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-shadow: 0px 5px 4px #a8a8a8b0;
+}

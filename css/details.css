@@ -1,0 +1,59 @@
+.details{
+    min-height: 100vh;
+    padding: 100px 140px;
+}
+.detailsWrapper{
+    background-color: #EAEAEA;
+    display: flex;
+}
+.detailsWrapper > div{
+
+}
+.detailsImg{
+    flex: 1;
+}
+.detailsDescription{
+    flex: 2;
+    margin: auto;
+}
+.detailsDescription h1{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: #FFA47B;
+    text-shadow: 0px 3px 3px #77777763;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.detailsDescription p{
+    font-size: 17px;
+    text-align: justify;
+    font-weight: bold;
+    padding: 20px;
+    color: #2a2a2abd;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactEx{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.contactEx button{
+    width: 60%;
+    padding: 8px 0;
+    font-size: 20px;
+    background-color: #FFA47B;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.contactEx button A{
+    text-decoration: none;
+    color: white;
+}
+.contactEx button:hover{
+    background-color: #ffa57bd3;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+
+.userCart nav{
+    height: 70px;
+}
+.cartLogo{
+    float: left;
+    padding-left: 30px;
+}
+.exitCart{
+    float: right;
+    padding: 20px 50PX;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #FFA47B;
+    text-decoration: none;
+}
+
+/* TABLE DESIGN */
+.cartPage{
+    width: 100%;
+}
+table{
+    margin: 10px 50px;
+    width: 90%;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+}
+th{
+    font-size: 16px;
+    border-bottom: 1px solid #80808062;
+    color: grey;
+    font-weight: lighter;
+}
+th,td{
+    padding: 15px 0;
+}
+tr:hover{
+    background-color: rgba(83, 83, 83, 0.164);
+}
+
+.userCart img{
+    margin: 0px;
+    padding: 0px;
+}
+tr td button{
+    padding: 6px 20px;
+    background-color: #5252524f;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+tr td button:hover{
+    background-color: #52525280;
+}
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 20px 0;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #FFA47B;
+    margin-right: 50px;
+    padding: 8px 20px;
+}
+.checkout p{
+    padding: 8px 20px;
+}
+.checkout{
+    float: right;
+    display: flex;
+}
+.checkout p b{
+    font-size: 22px;
+}
